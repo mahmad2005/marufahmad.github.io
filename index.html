@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maruf Ahmad Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-blue-900 text-white flex flex-col items-center py-10">
+      <img src="./Maruf_light.png" alt="Maruf Ahmad" class="w-32 h-32 rounded-full border-4 border-white mb-4">
+      <nav class="text-center">
+        <ul class="space-y-4 font-semibold">
+          <li><a href="#about" class="hover:underline">ABOUT</a></li>
+          <li><a href="#experience" class="hover:underline">EXPERIENCE</a></li>
+          <li><a href="#education" class="hover:underline">EDUCATION</a></li>
+          <li><a href="#skills" class="hover:underline">SKILLS</a></li>
+          <li><a href="#projects" class="hover:underline">PROJECTS</a></li>
+          <li><a href="#contact" class="hover:underline">CONTACT</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 px-10 py-8">
+      <section id="about">
+        <h1 class="text-5xl font-bold text-blue-900">Maruf <span class="text-blue-500">Ahmad</span></h1>
+        <p class="text-lg mt-2">Regina, Saskatchewan · +1 (306) 529-0274 · <a href="mailto:m.ahmad2005@gmail.com" class="text-blue-600">m.ahmad2005@gmail.com</a></p>
+        <p class="mt-6 max-w-3xl">
+          I’m Maruf Ahmad, co-founder and Operations Lead at <strong>SaskTech Lab</strong> — a Regina-based innovation hub combining commercial engineering services with structured talent development. At SaskTech Lab, we solve real-world problems for businesses while giving recent graduates practical, project-based experience under expert mentorship. Our mission is to grow Saskatchewan’s tech ecosystem not just by building impactful products, but by building skilled engineers too.
+        </p>
+        <p class="mt-4 max-w-3xl">
+          In parallel, I’m deeply involved in applied research and product development in embedded systems and medical electronics. I’ve led projects at URNeuroLab on neurophysiological research tools, building portable embedded devices for EMG signal analysis and motor control research. Prior to that, I led hardware and firmware development teams at Bi-Beat Ltd, designing commercial-grade systems like the Pedograph, ECG machines, and telemedicine platforms.
+        </p>
+        <p class="mt-4 max-w-3xl">
+          My background spans embedded Linux, IoT, PCB and sensor design, real-time systems, and signal processing. I’ve also explored the intersection of machine learning and hardware — from FPGA neural network implementations to AI-enhanced rehabilitation devices. During my undergrad, I freelanced as a web developer on Upwork and later led IoT deployments for industrial applications like passenger tracking and electric energy monitoring.
+        </p>
+        <p class="mt-4 max-w-3xl">
+          I’m passionate about developing intelligent embedded solutions that bridge engineering and human impact — in healthcare, agriculture, and automation. I thrive at the intersection of innovation, execution, and mentorship.
+        </p>
+      </section>
+
+      <section id="experience" class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-4">Experience</h2>
+        <ul class="space-y-4">
+          <li>
+            <strong>Embedded Systems Engineer</strong>, URNeuroLab – University of Regina<br />
+            <span class="text-sm text-gray-600">Jan 2023 – Present</span>
+            <p>Developed a hand grip force measurement device with trajectory tracking, real-time data visualization, and embedded GUI.</p>
+          </li>
+          <li>
+            <strong>Senior Research Engineer</strong>, Bi-Beat Ltd – Dhaka, Bangladesh<br />
+            <span class="text-sm text-gray-600">Jan 2018 – Sep 2021</span>
+            <p>Led R&D of devices like Pedograph, ECG software, and IoT patient monitoring systems.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="education" class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-4">Education</h2>
+        <ul>
+          <li><strong>Master of Applied Science</strong>, Electronic Systems Engineering, University of Regina, 2023</li>
+          <li><strong>B.Sc.</strong>, Electrical and Electronic Engineering, IUBAT – Dhaka, Bangladesh</li>
+        </ul>
+      </section>
+
+      <section id="skills" class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-4">Skills</h2>
+        <p>
+          C/C++, Python, Embedded Linux, STM32, ESP32, PCB Design (KiCad), RTOS, Bluetooth, WiFi, UART, SPI, I2C, CAN, MQTT, Git, Jenkins, MATLAB, GUI (Python & Embedded), VHDL, FPGA.
+        </p>
+      </section>
+
+      <section id="projects" class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-4">Projects</h2>
+        <ul class="list-disc ml-6 space-y-2">
+          <li><a class="text-blue-600 underline" href="https://github.com/mahmad2005/Cortical-Silent-Period-Analysis-App" target="_blank">Cortical Silent Period Analysis App</a></li>
+          <li><a class="text-blue-600 underline" href="https://bibeat.com/product/dynamic-pedograph/" target="_blank">Dynamic Pedograph</a></li>
+          <li><a class="text-blue-600 underline" href="https://bibeat.com/product/12-lead-ecg/" target="_blank">12-Lead ECG System</a></li>
+          <li><a class="text-blue-600 underline" href="https://bmpt.du.ac.bd/2020/07/10/innovation-and-development-of-a-negative-pressure-isolation-canopy-for-covid-19-patients-under-the-joint-leadership-of-the-university-of-dhaka-and-bsmmu/" target="_blank">COVID Isolation Canopy</a></li>
+        </ul>
+      </section>
+
+      <section id="contact" class="mt-12">
+        <h2 class="text-3xl font-bold text-blue-800 mb-4">Contact</h2>
+        <p>Email: <a href="mailto:m.ahmad2005@gmail.com" class="text-blue-600">m.ahmad2005@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/mahmad2005" class="text-blue-600">mahmad2005</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/marufahmad2005/" class="text-blue-600">marufahmad2005</a></p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
